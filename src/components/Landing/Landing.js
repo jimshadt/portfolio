@@ -11,11 +11,10 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
     FaLinkedin,
     FaGithub,
-    FaYoutube,
-    // FaBlogger,
+    FaGitlab,
+    FaStackOverflow,
 } from 'react-icons/fa';
 import { toggleTheme } from '../../store/actions';
 import { useDispatch, useSelector } from 'react-redux';
@@ -127,45 +126,32 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.gitlab && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.gitlab}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaGitlab
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='Twitter'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.stackOverflow && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.stackOverflow}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <FaStackOverflow
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='YouTube'
                                 />
                             </a>
                         )}
-                        {/* {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
-                                />
-                            </a>
-                        )} */}
                     </div>
                 </div>
                 <img

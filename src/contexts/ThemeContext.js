@@ -10,7 +10,7 @@ export const ThemeContext = createContext()
 
 function ThemeContextProvider(props) {
     // eslint-disable-next-line
-    const [theme, setTheme] = useState(purpleThemeLight)
+    const [theme, setTheme] = useState(purpleThemeDark)
     const { checked } = useSelector(({ theme }) => ({
         checked:theme,
     }));
