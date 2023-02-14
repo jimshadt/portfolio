@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f01e28ab.chunk.css",
-    "main.js": "/portfolio/static/js/main.26428152.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.26428152.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.aa001a6a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.aa001a6a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.022f4cca.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.022f4cca.js.map",
     "static/css/2.b183c589.chunk.css": "/portfolio/static/css/2.b183c589.chunk.css",
@@ -90,6 +90,7 @@
     "static/media/ionic.d2050eeb.svg": "/portfolio/static/media/ionic.d2050eeb.svg",
     "static/media/java.d004bc17.svg": "/portfolio/static/media/java.d004bc17.svg",
     "static/media/javascript.e9360603.svg": "/portfolio/static/media/javascript.e9360603.svg",
+    "static/media/jimshad_photo0.b0c8611e.png": "/portfolio/static/media/jimshad_photo0.b0c8611e.png",
     "static/media/julia.be076220.svg": "/portfolio/static/media/julia.be076220.svg",
     "static/media/kotlin.4f592da4.svg": "/portfolio/static/media/kotlin.4f592da4.svg",
     "static/media/lightroom.0e67d833.svg": "/portfolio/static/media/lightroom.0e67d833.svg",
@@ -152,6 +153,6 @@
     "static/css/2.b183c589.chunk.css",
     "static/js/2.574a63b4.chunk.js",
     "static/css/main.f01e28ab.chunk.css",
-    "static/js/main.26428152.chunk.js"
+    "static/js/main.aa001a6a.chunk.js"
   ]
 }
